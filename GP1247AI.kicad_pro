@@ -520,7 +520,7 @@
       "plot": "manufacture/gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D/PCB_Assembly.step",
       "svg": "",
       "vrml": ""
     },
@@ -669,10 +669,6 @@
     [
       "17e0c34b-4067-4a28-8fea-c23b1257ec90",
       "75V Boost"
-    ],
-    [
-      "bcff812d-df14-44ca-a60a-77e9f1b7f6a4",
-      "8V Boost"
     ]
   ],
   "text_variables": {}

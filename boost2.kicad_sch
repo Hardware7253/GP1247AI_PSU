@@ -7,6 +7,7 @@
 	(title_block
 		(title "75V Boost Converter")
 		(date "2025-11-27")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2839,7 +2840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fa0dd6a-8c94-4c07-9f61-320ab5571e84")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 187.96 133.35 0)
 			(effects
 				(font
@@ -2889,7 +2890,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2921,7 +2922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 236.22 71.12 0)
 			(effects
 				(font
@@ -2981,7 +2982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f108870-e562-45fb-bff2-f9aca5f21a77")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG07"
 			(at 118.11 66.675 0)
 			(effects
 				(font
@@ -3031,7 +3032,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#FLG06")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -3126,7 +3127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4056497b-4078-4cbf-aaf0-5701f4e04fe9")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 125.73 133.35 0)
 			(effects
 				(font
@@ -3176,7 +3177,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3192,7 +3193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "439bddfa-5f9a-43de-9d88-ac9509374d66")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 212.09 133.35 0)
 			(effects
 				(font
@@ -3242,7 +3243,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "605e1ca2-5a62-42ca-8475-809255577890")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 242.57 71.12 0)
 			(effects
 				(font
@@ -3470,7 +3471,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -3486,7 +3487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "736aec82-27d0-4814-95a5-6b375a218d9e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 110.49 133.35 0)
 			(effects
 				(font
@@ -3536,7 +3537,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3552,7 +3553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d251081-9342-40e0-8f45-71ce91dacefb")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 231.14 96.52 0)
 			(effects
 				(font
@@ -3602,7 +3603,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -3855,7 +3856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cccb029-2c71-4649-8b4a-abbe3cebf504")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 163.83 133.35 0)
 			(effects
 				(font
@@ -3905,7 +3906,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4076,7 +4077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abf0c83b-ea21-476c-ac40-e90eef5f2360")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 129.54 90.17 0)
 			(effects
 				(font
@@ -4126,7 +4127,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adf06c7a-f301-4a81-8cd9-d3b1eb8cdd19")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -4192,7 +4193,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4208,7 +4209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c27334bf-38c6-4d9b-9f71-1c561e43f2d0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 146.05 133.35 0)
 			(effects
 				(font
@@ -4258,7 +4259,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -4505,7 +4506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dae70252-2432-4276-8834-b363646e953b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 91.44 71.12 0)
 			(effects
 				(font
@@ -4555,7 +4556,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4808,7 +4809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3d1485b-dd34-4ca5-ac65-3fdc8b43ffe6")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 129.54 71.12 0)
 			(effects
 				(font
@@ -4858,7 +4859,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5032,7 +5033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb360c4b-9f97-49c4-9f8f-8e9b698a2f4d")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 148.59 83.82 0)
 			(effects
 				(font
@@ -5111,7 +5112,7 @@
 		(instances
 			(project "GP1247AI"
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95/17e0c34b-4067-4a28-8fea-c23b1257ec90"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
