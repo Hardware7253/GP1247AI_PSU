@@ -6,8 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "GP1247AI Power Supply Board")
-		(date "2025-11-28")
-		(rev "2")
+		(date "2026-01-14")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
@@ -2279,156 +2278,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Small_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Small_Bridged"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, small symbol, bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_1"
-				(arc
-					(start -0.762 0.254)
-					(mid 0 0.5696)
-					(end 0.762 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -3209,16 +3058,6 @@
 		)
 		(uuid "9f10ea7b-6703-4769-afd3-310d7fe11e15")
 	)
-	(text "C3031182 Dual rail 5V\nC5369434 Dual rail 12V"
-		(exclude_from_sim no)
-		(at 145.288 44.958 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a5f458d9-e77c-44ed-91db-7f30e880b243")
-	)
 	(text "Connectors"
 		(exclude_from_sim no)
 		(at 197.104 23.114 0)
@@ -3536,6 +3375,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 39.37) (xy 205.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26707671-567d-4541-9626-83ae8fac91ea")
+	)
+	(wire
+		(pts
 			(xy 236.22 91.44) (xy 233.68 91.44)
 		)
 		(stroke
@@ -3593,16 +3442,6 @@
 			(type default)
 		)
 		(uuid "32fca051-5338-49fd-967e-7803301ee02b")
-	)
-	(wire
-		(pts
-			(xy 205.74 46.99) (xy 205.74 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3312c26d-64ab-45f9-8e00-d598fba23897")
 	)
 	(wire
 		(pts
@@ -3763,16 +3602,6 @@
 			(type default)
 		)
 		(uuid "52f803ae-a9a0-47b7-b74d-a25876a9d1be")
-	)
-	(wire
-		(pts
-			(xy 205.74 39.37) (xy 205.74 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5536c94b-4e86-46c4-ab4e-46fc67c3e426")
 	)
 	(wire
 		(pts
@@ -4404,16 +4233,6 @@
 		)
 		(uuid "7e08ec9c-6229-4a8f-a3cd-1748c2b7d7d1")
 	)
-	(label "CONN_5V"
-		(at 205.74 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5a10bfe-e7d5-4192-b12b-3678e8702e5a")
-	)
 	(label "TEST"
 		(at 81.28 57.15 90)
 		(effects
@@ -4902,7 +4721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -4911,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C32713285.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42431818.pdf"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -4929,7 +4748,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C32713285"
+		(property "LCSC PART #" "C42431818"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -5370,83 +5189,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 205.74 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3cf41f5e-2b2a-4b9a-bdb5-2639adeb87fc")
-		(property "Reference" "JP1"
-			(at 203.962 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Small_Bridged"
-			(at 203.2 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C41432920.pdf"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART #" "C41432920"
-			(at 205.74 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "881764a5-ee2a-47a7-9999-320b5c5a10e2")
-		)
-		(pin "1"
-			(uuid "d538052a-34ec-4b60-bacb-351a9b086a7e")
-		)
-		(instances
-			(project "GP1247AI"
-				(path "/152923e7-b4e9-428d-b807-06741b10ce95"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 226.06 52.07 0)
 		(unit 1)
@@ -5472,7 +5214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -5481,7 +5223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C32713285.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42431818.pdf"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -5499,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PART #" "C32713285"
+		(property "LCSC PART #" "C42431818"
 			(at 226.06 52.07 0)
 			(effects
 				(font
@@ -7262,7 +7004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9a3e3ab-be99-4438-bf71-5a4048859acc")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 137.16 60.96 0)
 			(effects
 				(font
@@ -7329,7 +7071,7 @@
 		(instances
 			(project ""
 				(path "/152923e7-b4e9-428d-b807-06741b10ce95"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
